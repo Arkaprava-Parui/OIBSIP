@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url(game1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background-color: chartreuse;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+header ul li:hover{
+    background: linear-gradient(#cc66ff,#f4f4f4);
+    color: black;
+}
+header ul li:nth-child(1){
+    border-top: 4px solid #cc33ff;
+}
+main{
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main p{
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #5fff00;
+    color: indigo;
+    border-radius: 20px;
+}
+main p1{
+    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #5fff00;
+    color: blue;
+    border-radius: 30px;
+}
+main button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    background: linear-gradient(#cc66ff,#f4f4f4);
+    cursor: pointer;
+}
+main button:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
